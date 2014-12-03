@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2794131E1A2E682E005F1A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2794131D1A2E682E005F1A7F /* main.m */; };
+		279413211A2E682E005F1A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413201A2E682E005F1A7F /* AppDelegate.m */; };
+		279413241A2E682F005F1A7F /* Selfie__Audible_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 279413221A2E682F005F1A7F /* Selfie__Audible_.xcdatamodeld */; };
+		279413271A2E682F005F1A7F /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413261A2E682F005F1A7F /* ImageViewController.m */; };
+		2794132C1A2E682F005F1A7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2794132B1A2E682F005F1A7F /* Images.xcassets */; };
+		2794132F1A2E682F005F1A7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2794132D1A2E682F005F1A7F /* LaunchScreen.xib */; };
+		2794133B1A2E682F005F1A7F /* Selfie__Audible_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2794133A1A2E682F005F1A7F /* Selfie__Audible_Tests.m */; };
+		279413AA1A2ECA24005F1A7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279413A91A2ECA24005F1A7F /* UIKit.framework */; };
+		279413AC1A2ECA31005F1A7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279413AB1A2ECA31005F1A7F /* CoreGraphics.framework */; };
+		279413AE1A2ECA39005F1A7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279413AD1A2ECA39005F1A7F /* Foundation.framework */; };
+		279413B31A2EDCCD005F1A7F /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413B21A2EDCCD005F1A7F /* CollectionViewController.m */; };
+		279413BA1A2EDF74005F1A7F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413B81A2EDF74005F1A7F /* Reachability.m */; };
+		279413BD1A2EDFB9005F1A7F /* NetCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413BC1A2EDFB9005F1A7F /* NetCheck.m */; };
+		279413C11A2EE0EC005F1A7F /* StartTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413C01A2EE0EC005F1A7F /* StartTransition.m */; };
+		279413C41A2EE108005F1A7F /* EndTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413C31A2EE108005F1A7F /* EndTransition.m */; };
+		279413C81A2F687B005F1A7F /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413C71A2F687B005F1A7F /* CollectionViewCell.m */; };
+		279413CC1A2F6BC2005F1A7F /* SelfieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279413CB1A2F6BC2005F1A7F /* SelfieViewController.m */; };
+		279413CE1A2F8127005F1A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279413CD1A2F8127005F1A7F /* Main.storyboard */; };
+		A002DFCC0BD3B059D6A4BA30 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5057290864AB25F1682BFA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		279413351A2E682F005F1A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279413101A2E682E005F1A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279413171A2E682E005F1A7F;
+			remoteInfo = "Selfie (Audible)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		279413181A2E682E005F1A7F /* Selfie (Audible).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Selfie (Audible).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2794131C1A2E682E005F1A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2794131D1A2E682E005F1A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2794131F1A2E682E005F1A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		279413201A2E682E005F1A7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		279413231A2E682F005F1A7F /* Selfie__Audible_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Selfie__Audible_.xcdatamodel; sourceTree = "<group>"; };
+		279413251A2E682F005F1A7F /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		279413261A2E682F005F1A7F /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		2794132B1A2E682F005F1A7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2794132E1A2E682F005F1A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		279413341A2E682F005F1A7F /* Selfie (Audible)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Selfie (Audible)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279413391A2E682F005F1A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2794133A1A2E682F005F1A7F /* Selfie__Audible_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Selfie__Audible_Tests.m; sourceTree = "<group>"; };
+		279413A91A2ECA24005F1A7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		279413AB1A2ECA31005F1A7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		279413AD1A2ECA39005F1A7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		279413B11A2EDCCD005F1A7F /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		279413B21A2EDCCD005F1A7F /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		279413B71A2EDF74005F1A7F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		279413B81A2EDF74005F1A7F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		279413BB1A2EDFB9005F1A7F /* NetCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetCheck.h; sourceTree = "<group>"; };
+		279413BC1A2EDFB9005F1A7F /* NetCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetCheck.m; sourceTree = "<group>"; };
+		279413BF1A2EE0EC005F1A7F /* StartTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartTransition.h; sourceTree = "<group>"; };
+		279413C01A2EE0EC005F1A7F /* StartTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartTransition.m; sourceTree = "<group>"; };
+		279413C21A2EE108005F1A7F /* EndTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndTransition.h; sourceTree = "<group>"; };
+		279413C31A2EE108005F1A7F /* EndTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndTransition.m; sourceTree = "<group>"; };
+		279413C61A2F687B005F1A7F /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		279413C71A2F687B005F1A7F /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		279413CA1A2F6BC2005F1A7F /* SelfieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfieViewController.h; sourceTree = "<group>"; };
+		279413CB1A2F6BC2005F1A7F /* SelfieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfieViewController.m; sourceTree = "<group>"; };
+		279413CD1A2F8127005F1A7F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2E5057290864AB25F1682BFA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9906AA9C32622FA9D83F64A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D45E08019D75A5B865910D37 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279413151A2E682E005F1A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279413AE1A2ECA39005F1A7F /* Foundation.framework in Frameworks */,
+				279413AC1A2ECA31005F1A7F /* CoreGraphics.framework in Frameworks */,
+				279413AA1A2ECA24005F1A7F /* UIKit.framework in Frameworks */,
+				A002DFCC0BD3B059D6A4BA30 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279413311A2E682F005F1A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2794130F1A2E682E005F1A7F = {
+			isa = PBXGroup;
+			children = (
+				2794131A1A2E682E005F1A7F /* Selfie (Audible) */,
+				279413371A2E682F005F1A7F /* Selfie (Audible)Tests */,
+				279413191A2E682E005F1A7F /* Products */,
+				582B6E22C144EBC2BB170982 /* Pods */,
+				569DF3DE0117876E028ADF93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		279413191A2E682E005F1A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279413181A2E682E005F1A7F /* Selfie (Audible).app */,
+				279413341A2E682F005F1A7F /* Selfie (Audible)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2794131A1A2E682E005F1A7F /* Selfie (Audible) */ = {
+			isa = PBXGroup;
+			children = (
+				279413AF1A2ECA76005F1A7F /* Initializing */,
+				279413B01A2ECAA6005F1A7F /* Views */,
+				279413C51A2F682E005F1A7F /* Collection View Cell */,
+				279413BE1A2EE086005F1A7F /* Transition */,
+				279413B41A2EDEE7005F1A7F /* Connection  */,
+				2794132B1A2E682F005F1A7F /* Images.xcassets */,
+				2794132D1A2E682F005F1A7F /* LaunchScreen.xib */,
+				2794131B1A2E682E005F1A7F /* Supporting Files */,
+			);
+			path = "Selfie (Audible)";
+			sourceTree = "<group>";
+		};
+		2794131B1A2E682E005F1A7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279413221A2E682F005F1A7F /* Selfie__Audible_.xcdatamodeld */,
+				2794131C1A2E682E005F1A7F /* Info.plist */,
+				2794131D1A2E682E005F1A7F /* main.m */,
+				279413CD1A2F8127005F1A7F /* Main.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279413371A2E682F005F1A7F /* Selfie (Audible)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2794133A1A2E682F005F1A7F /* Selfie__Audible_Tests.m */,
+				279413381A2E682F005F1A7F /* Supporting Files */,
+			);
+			path = "Selfie (Audible)Tests";
+			sourceTree = "<group>";
+		};
+		279413381A2E682F005F1A7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279413391A2E682F005F1A7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279413AF1A2ECA76005F1A7F /* Initializing */ = {
+			isa = PBXGroup;
+			children = (
+				2794131F1A2E682E005F1A7F /* AppDelegate.h */,
+				279413201A2E682E005F1A7F /* AppDelegate.m */,
+			);
+			name = Initializing;
+			sourceTree = "<group>";
+		};
+		279413B01A2ECAA6005F1A7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				279413CA1A2F6BC2005F1A7F /* SelfieViewController.h */,
+				279413CB1A2F6BC2005F1A7F /* SelfieViewController.m */,
+				279413251A2E682F005F1A7F /* ImageViewController.h */,
+				279413261A2E682F005F1A7F /* ImageViewController.m */,
+				279413B11A2EDCCD005F1A7F /* CollectionViewController.h */,
+				279413B21A2EDCCD005F1A7F /* CollectionViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		279413B41A2EDEE7005F1A7F /* Connection  */ = {
+			isa = PBXGroup;
+			children = (
+				279413BB1A2EDFB9005F1A7F /* NetCheck.h */,
+				279413BC1A2EDFB9005F1A7F /* NetCheck.m */,
+				279413B71A2EDF74005F1A7F /* Reachability.h */,
+				279413B81A2EDF74005F1A7F /* Reachability.m */,
+			);
+			name = "Connection ";
+			sourceTree = "<group>";
+		};
+		279413BE1A2EE086005F1A7F /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				279413BF1A2EE0EC005F1A7F /* StartTransition.h */,
+				279413C01A2EE0EC005F1A7F /* StartTransition.m */,
+				279413C21A2EE108005F1A7F /* EndTransition.h */,
+				279413C31A2EE108005F1A7F /* EndTransition.m */,
+			);
+			name = Transition;
+			sourceTree = "<group>";
+		};
+		279413C51A2F682E005F1A7F /* Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				279413C61A2F687B005F1A7F /* CollectionViewCell.h */,
+				279413C71A2F687B005F1A7F /* CollectionViewCell.m */,
+			);
+			name = "Collection View Cell";
+			sourceTree = "<group>";
+		};
+		569DF3DE0117876E028ADF93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279413AD1A2ECA39005F1A7F /* Foundation.framework */,
+				279413AB1A2ECA31005F1A7F /* CoreGraphics.framework */,
+				279413A91A2ECA24005F1A7F /* UIKit.framework */,
+				2E5057290864AB25F1682BFA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		582B6E22C144EBC2BB170982 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9906AA9C32622FA9D83F64A /* Pods.debug.xcconfig */,
+				D45E08019D75A5B865910D37 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279413171A2E682E005F1A7F /* Selfie (Audible) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2794133E1A2E682F005F1A7F /* Build configuration list for PBXNativeTarget "Selfie (Audible)" */;
+			buildPhases = (
+				95BB4363DE061C229C1B8FAC /* Check Pods Manifest.lock */,
+				279413141A2E682E005F1A7F /* Sources */,
+				279413151A2E682E005F1A7F /* Frameworks */,
+				279413161A2E682E005F1A7F /* Resources */,
+				8B5CC15DDE7B51B8449F8D5D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Selfie (Audible)";
+			productName = "Selfie (Audible)";
+			productReference = 279413181A2E682E005F1A7F /* Selfie (Audible).app */;
+			productType = "com.apple.product-type.application";
+		};
+		279413331A2E682F005F1A7F /* Selfie (Audible)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279413411A2E682F005F1A7F /* Build configuration list for PBXNativeTarget "Selfie (Audible)Tests" */;
+			buildPhases = (
+				279413301A2E682F005F1A7F /* Sources */,
+				279413311A2E682F005F1A7F /* Frameworks */,
+				279413321A2E682F005F1A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279413361A2E682F005F1A7F /* PBXTargetDependency */,
+			);
+			name = "Selfie (Audible)Tests";
+			productName = "Selfie (Audible)Tests";
+			productReference = 279413341A2E682F005F1A7F /* Selfie (Audible)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279413101A2E682E005F1A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AstudilloDevelopment;
+				TargetAttributes = {
+					279413171A2E682E005F1A7F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					279413331A2E682F005F1A7F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 279413171A2E682E005F1A7F;
+					};
+				};
+			};
+			buildConfigurationList = 279413131A2E682E005F1A7F /* Build configuration list for PBXProject "Selfie (Audible)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2794130F1A2E682E005F1A7F;
+			productRefGroup = 279413191A2E682E005F1A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279413171A2E682E005F1A7F /* Selfie (Audible) */,
+				279413331A2E682F005F1A7F /* Selfie (Audible)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279413161A2E682E005F1A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2794132F1A2E682F005F1A7F /* LaunchScreen.xib in Resources */,
+				2794132C1A2E682F005F1A7F /* Images.xcassets in Resources */,
+				279413CE1A2F8127005F1A7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279413321A2E682F005F1A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B5CC15DDE7B51B8449F8D5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95BB4363DE061C229C1B8FAC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279413141A2E682E005F1A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279413211A2E682E005F1A7F /* AppDelegate.m in Sources */,
+				279413BD1A2EDFB9005F1A7F /* NetCheck.m in Sources */,
+				279413C41A2EE108005F1A7F /* EndTransition.m in Sources */,
+				2794131E1A2E682E005F1A7F /* main.m in Sources */,
+				279413CC1A2F6BC2005F1A7F /* SelfieViewController.m in Sources */,
+				279413271A2E682F005F1A7F /* ImageViewController.m in Sources */,
+				279413BA1A2EDF74005F1A7F /* Reachability.m in Sources */,
+				279413C81A2F687B005F1A7F /* CollectionViewCell.m in Sources */,
+				279413C11A2EE0EC005F1A7F /* StartTransition.m in Sources */,
+				279413B31A2EDCCD005F1A7F /* CollectionViewController.m in Sources */,
+				279413241A2E682F005F1A7F /* Selfie__Audible_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279413301A2E682F005F1A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2794133B1A2E682F005F1A7F /* Selfie__Audible_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		279413361A2E682F005F1A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279413171A2E682E005F1A7F /* Selfie (Audible) */;
+			targetProxy = 279413351A2E682F005F1A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2794132D1A2E682F005F1A7F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2794132E1A2E682F005F1A7F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2794133C1A2E682F005F1A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2794133D1A2E682F005F1A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2794133F1A2E682F005F1A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9906AA9C32622FA9D83F64A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Selfie (Audible)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		279413401A2E682F005F1A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45E08019D75A5B865910D37 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Selfie (Audible)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		279413421A2E682F005F1A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Selfie (Audible)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfie (Audible).app/Selfie (Audible)";
+			};
+			name = Debug;
+		};
+		279413431A2E682F005F1A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Selfie (Audible)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfie (Audible).app/Selfie (Audible)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279413131A2E682E005F1A7F /* Build configuration list for PBXProject "Selfie (Audible)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2794133C1A2E682F005F1A7F /* Debug */,
+				2794133D1A2E682F005F1A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2794133E1A2E682F005F1A7F /* Build configuration list for PBXNativeTarget "Selfie (Audible)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2794133F1A2E682F005F1A7F /* Debug */,
+				279413401A2E682F005F1A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279413411A2E682F005F1A7F /* Build configuration list for PBXNativeTarget "Selfie (Audible)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279413421A2E682F005F1A7F /* Debug */,
+				279413431A2E682F005F1A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		279413221A2E682F005F1A7F /* Selfie__Audible_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				279413231A2E682F005F1A7F /* Selfie__Audible_.xcdatamodel */,
+			);
+			currentVersion = 279413231A2E682F005F1A7F /* Selfie__Audible_.xcdatamodel */;
+			path = Selfie__Audible_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 279413101A2E682E005F1A7F /* Project object */;
+}
